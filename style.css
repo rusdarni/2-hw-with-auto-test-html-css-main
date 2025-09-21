@@ -1,82 +1,167 @@
 * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: 'Inter', sans-serif;
+    color: #303030;
+}
 
 header {
+    background-color: #2965f1;
+    padding: 23px 0;
     /* Стили для хедера */
 }
 
 header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-height: 100vh;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    background-color: #fff;
+    padding: 100px 0;
     /* Стили для второй секции */
 }
 
 select {
     /* Стили для выпадающего списка */
+    width: 150px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+
+
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    appearance: none;
+
+    background: url("./img/ep_arrow-down.svg") no-repeat right center;
+    background-position: right 10px center;
+
+    padding: 10px 60px 10px 10px;
 }
 
 .section-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+    list-style-image: url("./img/solar_map-arrow-up-bold.svg");
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+    width: 330px;
+    padding: 10px 215px 10px 10px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 125px;
+    background: #2965f1;
+    border: none;
+    height: 36px;
     /* Стили для кнопки */
 }
 
 .line {
+    margin-top: 60px;
+    margin-bottom: 60px;
     /* Стили для линии */
 }
 
 table {
+    border-collapse: collapse;
+    border: 1px solid #95a1bb;
+    font-size: 14px;
     /* Стили для таблицы */
 }
 
 th, td {
+    padding: 10px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 25px 0;
     /* Стили для футера */
 }
 
 .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
+}
+.footer-link:visited {
+    color: #8a2be2; /* Фиолетовый для посещенных */
 }
