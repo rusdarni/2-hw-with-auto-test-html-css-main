@@ -86,7 +86,7 @@ select {
 
 .frameworks-list {
     list-style-image: url("./img/solar_map-arrow-up-bold.svg");
-    padding: 0px 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -94,7 +94,7 @@ select {
 }
 
 .books-list {
-    padding-left: 25px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
